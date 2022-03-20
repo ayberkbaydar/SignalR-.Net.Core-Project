@@ -21,3 +21,26 @@ C:\Users\abaydar\source\repos\SignalRServerExample\SignalRServerExample\obj\Debu
 C:\Users\abaydar\source\repos\SignalRServerExample\SignalRServerExample\obj\Debug\net5.0\SignalRServerExample.pdb
 C:\Users\abaydar\source\repos\SignalRServerExample\SignalRServerExample\obj\Debug\net5.0\SignalRServerExample.genruntimeconfig.cache
 C:\Users\abaydar\source\repos\SignalRServerExample\SignalRServerExample\obj\Debug\net5.0\SignalRServerExample.csprojAssemblyReference.cache
+C:\Users\Ayberk Baydar\Documents\GitHub\SignalR-.Net.Core-Project\SignalRServerExample\SignalRServerExample\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Ayberk Baydar\Documents\GitHub\SignalR-.Net.Core-Project\SignalRServerExample\SignalRServerExample\bin\Debug\net5.0\appsettings.json
+C:\Users\Ayberk Baydar\Documents\GitHub\SignalR-.Net.Core-Project\SignalRServerExample\SignalRServerExample\bin\Debug\net5.0\SignalRServerExample.exe
+C:\Users\Ayberk Baydar\Documents\GitHub\SignalR-.Net.Core-Project\SignalRServerExample\SignalRServerExample\bin\Debug\net5.0\SignalRServerExample.deps.json
+C:\Users\Ayberk Baydar\Documents\GitHub\SignalR-.Net.Core-Project\SignalRServerExample\SignalRServerExample\bin\Debug\net5.0\SignalRServerExample.runtimeconfig.json
+C:\Users\Ayberk Baydar\Documents\GitHub\SignalR-.Net.Core-Project\SignalRServerExample\SignalRServerExample\bin\Debug\net5.0\SignalRServerExample.runtimeconfig.dev.json
+C:\Users\Ayberk Baydar\Documents\GitHub\SignalR-.Net.Core-Project\SignalRServerExample\SignalRServerExample\bin\Debug\net5.0\SignalRServerExample.dll
+C:\Users\Ayberk Baydar\Documents\GitHub\SignalR-.Net.Core-Project\SignalRServerExample\SignalRServerExample\bin\Debug\net5.0\ref\SignalRServerExample.dll
+C:\Users\Ayberk Baydar\Documents\GitHub\SignalR-.Net.Core-Project\SignalRServerExample\SignalRServerExample\bin\Debug\net5.0\SignalRServerExample.pdb
+C:\Users\Ayberk Baydar\Documents\GitHub\SignalR-.Net.Core-Project\SignalRServerExample\SignalRServerExample\obj\Debug\net5.0\SignalRServerExample.csproj.AssemblyReference.cache
+C:\Users\Ayberk Baydar\Documents\GitHub\SignalR-.Net.Core-Project\SignalRServerExample\SignalRServerExample\obj\Debug\net5.0\SignalRServerExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ayberk Baydar\Documents\GitHub\SignalR-.Net.Core-Project\SignalRServerExample\SignalRServerExample\obj\Debug\net5.0\SignalRServerExample.AssemblyInfoInputs.cache
+C:\Users\Ayberk Baydar\Documents\GitHub\SignalR-.Net.Core-Project\SignalRServerExample\SignalRServerExample\obj\Debug\net5.0\SignalRServerExample.AssemblyInfo.cs
+C:\Users\Ayberk Baydar\Documents\GitHub\SignalR-.Net.Core-Project\SignalRServerExample\SignalRServerExample\obj\Debug\net5.0\SignalRServerExample.csproj.CoreCompileInputs.cache
+C:\Users\Ayberk Baydar\Documents\GitHub\SignalR-.Net.Core-Project\SignalRServerExample\SignalRServerExample\obj\Debug\net5.0\SignalRServerExample.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Ayberk Baydar\Documents\GitHub\SignalR-.Net.Core-Project\SignalRServerExample\SignalRServerExample\obj\Debug\net5.0\staticwebassets\SignalRServerExample.StaticWebAssets.Manifest.cache
+C:\Users\Ayberk Baydar\Documents\GitHub\SignalR-.Net.Core-Project\SignalRServerExample\SignalRServerExample\obj\Debug\net5.0\staticwebassets\SignalRServerExample.StaticWebAssets.xml
+C:\Users\Ayberk Baydar\Documents\GitHub\SignalR-.Net.Core-Project\SignalRServerExample\SignalRServerExample\obj\Debug\net5.0\scopedcss\bundle\SignalRServerExample.styles.css
+C:\Users\Ayberk Baydar\Documents\GitHub\SignalR-.Net.Core-Project\SignalRServerExample\SignalRServerExample\obj\Debug\net5.0\SignalRServerExample.RazorTargetAssemblyInfo.cache
+C:\Users\Ayberk Baydar\Documents\GitHub\SignalR-.Net.Core-Project\SignalRServerExample\SignalRServerExample\obj\Debug\net5.0\SignalRServerExample.dll
+C:\Users\Ayberk Baydar\Documents\GitHub\SignalR-.Net.Core-Project\SignalRServerExample\SignalRServerExample\obj\Debug\net5.0\ref\SignalRServerExample.dll
+C:\Users\Ayberk Baydar\Documents\GitHub\SignalR-.Net.Core-Project\SignalRServerExample\SignalRServerExample\obj\Debug\net5.0\SignalRServerExample.pdb
+C:\Users\Ayberk Baydar\Documents\GitHub\SignalR-.Net.Core-Project\SignalRServerExample\SignalRServerExample\obj\Debug\net5.0\SignalRServerExample.genruntimeconfig.cache

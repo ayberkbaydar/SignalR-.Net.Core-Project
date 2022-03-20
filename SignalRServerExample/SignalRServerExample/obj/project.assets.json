@@ -8,27 +8,28 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\abaydar\\.nuget\\packages\\": {},
+    "C:\\Users\\Ayberk Baydar\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abaydar\\source\\repos\\SignalRServerExample\\SignalRServerExample\\SignalRServerExample.csproj",
+      "projectUniqueName": "C:\\Users\\Ayberk Baydar\\Documents\\GitHub\\SignalR-.Net.Core-Project\\SignalRServerExample\\SignalRServerExample\\SignalRServerExample.csproj",
       "projectName": "SignalRServerExample",
-      "projectPath": "C:\\Users\\abaydar\\source\\repos\\SignalRServerExample\\SignalRServerExample\\SignalRServerExample.csproj",
-      "packagesPath": "C:\\Users\\abaydar\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\abaydar\\source\\repos\\SignalRServerExample\\SignalRServerExample\\obj\\",
+      "projectPath": "C:\\Users\\Ayberk Baydar\\Documents\\GitHub\\SignalR-.Net.Core-Project\\SignalRServerExample\\SignalRServerExample\\SignalRServerExample.csproj",
+      "packagesPath": "C:\\Users\\Ayberk Baydar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Ayberk Baydar\\Documents\\GitHub\\SignalR-.Net.Core-Project\\SignalRServerExample\\SignalRServerExample\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\abaydar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ayberk Baydar\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
@@ -70,7 +71,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }
