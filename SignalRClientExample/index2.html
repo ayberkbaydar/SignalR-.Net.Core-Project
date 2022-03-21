@@ -6,7 +6,7 @@
         <script>
             $(document).ready(()=>{
                 const connection = new signalR.HubConnectionBuilder()
-                                              .withUrl("https://localhost:5001/myhub")
+                                              .withUrl("https://localhost:5001/messagehub")
                                               .withAutomaticReconnect([1000,1000,2000])//default 0-2-10-30
                                               .build();
 
@@ -50,52 +50,56 @@
                     animation();
                 });
 
-                connection.on("userJoined",connectionId =>{
-                    durum.html(`${connectionId} bağlandı.`);
-                    durum.css("background-color","green");
-                    animation();
-                });
-
-                connection.on("userLeaved",connectionId =>{
-                    durum.html(`${connectionId} ayrıldı.`);
-                    durum.css("background-color","red");
-                    animation();
-                });
-
-                connection.on("clients",clientsData =>{
-                    let text = "";
-                    $.each(clientsData,(index,item) => {
-                        text+=`<li>${item}</li>`;
-                    });
-                    $("#clients").html(text);
-                });
-
-
                 $("#btnGonder").click(()=>{
                     let message = $("#txtMessage").val();
-                    connection.invoke("SendMessageAsync",message).catch(error => console.log(`Mesaj gönderilirken hata oluştu. ${error}`));
+
+                    let connectionIds = $("#connectionIds").val().split(",");
+
+                    let groups = $("#txtGroups").val.split(",");
+
+                    // connection.invoke("SendMessageAsync",message,connectionIds).catch(error => console.log(`Mesaj gönderilirken hata oluştu. ${error}`));
+                    // connection.invoke("SendMessageAsync",message,$("input[name=grup]:checked").val(),connectionIds).catch(error => console.log(`Mesaj gönderilirken hata oluştu. ${error}`));
+                    connection.invoke("SendMessageAsync",message,groups[0]).catch(error => console.log(`Mesaj gönderilirken hata oluştu. ${error}`));
                 });
 
-                connection.on("receiveMessage",message =>{
+                connection.on("receiveMessage",message => {
                     $("#mesajlar").append(message+"<br>");
                 });
+
+                let _connectionId="";
+
+                connection.on("getConnectionId",connectionId => {
+                _connectionId=connectionId;
+                $("#connectionId").html(`Connection Id : ${connectionId}`);
             });
+
+            $("#btnGrubaGir").click(()=>{
+                let groupName = $("input[name=grup]:checked").val();
+                connection.invoke("addGroup",_connectionId,groupName).catch(error => console.log(`Mesaj gönderilirken hata oluştu. ${error}`));
+            });
+
+            });
+
+            
         </script>
     </head>
     <body>
+        <div style="background-color: black; color: white;" id="connectionId">   </div>
+        <input type="radio" name="grup" value="A"> A
+        <input type="radio" name="grup" value="B"> B
+        <input type="radio" name="grup" value="C"> C
+        <button id="btnGrubaGir">Gruba Gir</button>
+        <br>
 
         <div id="durum"  style="display: none;"></div>
 
-        <input type="text" id="txtMessage">
+        <input type="text" id="txtMessage" placeholder="Message"> <br>
+        <input type="text" id="txtGroups" placeholder="Groups">
+        <br>
+        <textarea id="connectionIds" cols="30" rows="10" placeholder="Connection Id"></textarea>
         <button id="btnGonder">Gönder</button>
 
         <div id="mesajlar"></div>
-
-        <div>
-            <ul id="clients">
-
-            </ul>
-        </div>
 
     </body>
 </html>
